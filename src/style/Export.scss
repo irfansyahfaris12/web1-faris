@@ -1,0 +1,145 @@
+.hidden {
+    display: none;
+}
+
+.show {
+    z-index: 30;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 11%;
+    height: 11%;
+    // background: #3c4650;
+
+    .transparant {
+        z-index: 50;
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(10, 10, 10, 0.6);
+    }
+}
+
+.export {
+    z-index: 100;
+    position: fixed;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+    margin: 60px 28%;
+    background-color: white;
+    padding: 25px;
+
+    h5 {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: 450;
+        color: #3c4650;
+    }
+
+    .wrap-file {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .file {
+        flex: 1 1 1;
+        margin-top: -4px;
+        margin-bottom: 25px;
+        text-align: center;
+        width: 19%;
+        padding: 19px 30px;
+        border: 2px solid #e9eff4;
+        border-radius: 7px;
+
+        img {
+            width: 56px;
+            height: 68px;
+        }
+
+        p {
+            margin-bottom: 0px;
+            font-size: 12px;
+            color: #404953;
+        }
+    }
+
+    .file:hover {
+        border: 2px solid #4ca0ff;
+        box-shadow: 5px 5px 50px #f3f8ff;
+        cursor: pointer;
+    }
+
+    .file:focus {
+        border: 2px solid #4ca0ff;
+        box-shadow: 5px 5px 50px #f3f8ff;
+    }
+
+    .folder {
+        margin-top: -15px;
+        display: flex;
+        border: 1px solid #e9eff4;
+        justify-content: space-between;
+        align-items: center;
+        color: #c2c5c8;
+        padding: 5px;
+        border-radius: 6px;
+        cursor: pointer;
+
+        span {
+            font-size: 12px;
+        }
+        .btn {
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            color: #82bdff;
+            border: 1px solid #82bdff;
+            font-size: 14px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    span {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .tombol-export {
+        border-radius: 3px;
+        text-decoration: none;
+        color: white;
+        margin-top: 30px;
+        font-size: 13px;
+        float: right;
+        padding: 10px 55px;
+        background-color: #4da1ff;
+        margin-bottom: 30px;
+        border: 1px solid #4da1ff;
+    }
+    .tombol-export:hover{
+        color: #4da1ff;
+        background-color: white;
+        border: 1px solid #4da1ff; 
+    }
+}
+
+@media (max-width:700px) {
+    .export {
+        margin: 50px;
+        overflow-y: scroll;
+        height: auto;
+        .file {
+            padding: 10px;
+            height: auto;
+            width: 30%; 
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

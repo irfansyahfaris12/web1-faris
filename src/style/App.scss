@@ -1,0 +1,162 @@
+body{
+  background: #f4f8f9;
+}
+.container {
+  position: relative;
+}
+
+.status {
+  position: fixed;
+  right: 0;
+  background-color: #fcfdfd;
+  height: 100%;
+  width: 150px;
+  padding: 35px;
+
+  .tanggal {
+    display: flex;
+
+    .cuaca {
+      margin-left: 27px;
+
+      h3 {
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 5px;
+        color: #404953;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: -12px;
+        color: #999999;
+      }
+    }
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .notifikasi {
+    span {
+      position: absolute;
+      font-size: 13px;
+      text-align: center;
+      align-items: center;
+      width: 22px;
+      height: 22px;
+      background-color: #ff6161;
+      color: white;
+      border-radius: 50%;
+      margin-top: -8px;
+      margin-left: -13px;
+
+      p {
+        margin-top: 4px;
+      }
+    }
+  }
+
+  .pesan {
+    margin-top: 24px;
+
+    p {
+      font-size: 13px;
+      margin-top: -20px;
+      color: #404953;
+    }
+
+    .coret {
+      text-decoration: line-through;
+    }
+    h5 {
+      color: #a3a3a3;
+      margin-top: 0;
+      font-weight: 400;
+    }
+    hr {
+      height: 5px;
+      background-color: #b6d7fd;
+      width: 50px;
+      margin-left: 0;
+      border-radius: 3px;
+      border: 0;
+    }
+  }
+  .aktif {
+    font-size: 10px;
+    .view {
+      color: #85befb;
+      margin-left: 18px;
+      cursor: pointer;
+    }
+    i {
+      color: #e6e7e7;
+      border-radius: 2px;
+      border: 1px solid #e6e7e7;
+      padding: 3px;
+    }
+    .accept {
+      color: #b1b5b9;
+      cursor: pointer;
+    }
+  }
+  .aktif-hr {
+    background-color: #70b3fe;
+    width: 100px;
+    margin-left: 0;
+    border-radius: 3px;
+    border: 0;
+  }
+  
+}
+@media (max-width:700px){
+  .awal-status {
+    display: none;
+    transition: 0.5s ease-in-out;
+
+  }
+  .hidden-status {
+    right: -250px;
+    transition: 0.5s ease-in-out;
+
+  }
+  .show-status {
+    margin-top:10px;
+    display: block;
+    z-index: 2;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

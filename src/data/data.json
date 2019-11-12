@@ -1,0 +1,85 @@
+{
+    "dataUser": [
+        {
+            "nama": "Samuel Spencer",
+            "email": "sasp@emagent.com",
+            "jobs": "Creative Director",
+            "avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3KKPr_PKbV-FPOalyN5KvvNxgqXWTV9Kbudjk7IDKMVK4xrxC&s",
+            "invites": "03",
+            "pending": "02",
+            "warna": "#31baff",
+        "grafik" : [
+            {"name": "Page A", "value": 1},
+            {"name": "Page B", "value": 1},
+            {"name": "Page C", "value": 3},
+            {"name": "Page D", "value": 2},
+            {"name": "Page E", "value": 3},
+            {"name": "Page F", "value": 1},
+            {"name": "Page G", "value": 4},
+            {"name": "Page H", "value": 1},
+            {"name": "Page I", "value": 1}
+            ]
+        },
+        {
+            "nama": "Kit Laframboise",
+            "email": "kilap@egament.com",
+            "jobs": "Data Analysit",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOJnz22DKj8_Bqv-5gN74mIdADQT82_NCZ65g4WB4OCz3FL5JC&s",
+            "invites": "07",
+            "pending": "00",
+            "warna": "#989898",
+            "grafik" : [
+                {"name": "Page A", "value": 2},
+                {"name": "Page B", "value": 1},
+                {"name": "Page C", "value": 2},
+                {"name": "Page D", "value": 3},
+                {"name": "Page E", "value": 1},
+                {"name": "Page F", "value": 2},
+                {"name": "Page G", "value": 3},
+                {"name": "Page H", "value": 2},
+                {"name": "Page I", "value": 1}
+                ]
+        },
+        {
+            "nama": "Abegael Enno",
+            "email": "anhu@egament.com",
+            "jobs": "Product Manager",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XmO1TMeAwPoHWMBH6erwwg0tVu4cqQNCMp4-IASRgmROj4Z6&s",
+            "invites": "13",
+            "pending": "05",
+            "warna" : "#fc577a",
+            "grafik" : [
+                {"name": "Page A", "value": 1},
+                {"name": "Page B", "value": 2},
+                {"name": "Page C", "value": 3},
+                {"name": "Page D", "value": 2},
+                {"name": "Page E", "value": 4},
+                {"name": "Page F", "value": 2},
+                {"name": "Page G", "value": 1},
+                {"name": "Page H", "value": 3},
+                {"name": "Page I", "value": 1}
+
+                ]
+        }
+    ],
+   "pesanUser": [
+        {
+            "style" : "coret",
+            "jam" : "9:45",
+            "pesan" : "Reply to Debie Wilhelm"
+        },
+        {
+            "style" : "aktif",
+            "jam" : "9:59",
+            "pesan" : "New invitation from Julie"
+        },
+        {
+            "jam" : "10:30",
+            "pesan" : "Wireframes with Josh"
+        },
+        {
+            "jam" : "12:45",
+            "pesan" : "Follow up on Wireframes and Design"
+        }
+    ]
+}

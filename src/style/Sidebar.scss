@@ -1,0 +1,107 @@
+.sidebar {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 88px;
+    text-align: center;
+    z-index: 20;
+    background: #fff;
+
+    .img {
+        width: 26px;
+        margin-top: 22px;
+    }
+
+    .btn-sidebar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 55px;
+
+        .icon-side{
+            width: 50px;
+        }
+                .satu{
+                    position: relative;
+                    bottom: 15px;
+                }
+                .dua{
+                    position: relative;
+                    bottom: 50px;
+                }
+                .tiga{
+                    position: relative;
+                    bottom: 70px;
+                }
+                .empat{
+                    position: relative;
+                    bottom: 90px;
+                }
+                .lima{
+                    position: relative;
+                    bottom: 115px;
+                }
+                .enam{
+                    position: relative;
+                    bottom: 145px;
+                }
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        position: fixed;
+        top: auto;
+        left: 0;
+        bottom: 0;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        background: #fff;
+
+        .img {
+            display: none;
+        }
+
+        .btn-sidebar {
+            display: flex;
+            margin-top: 0;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 40px;
+            .icon-side {
+                margin-top: 0;
+            }
+            .satu{
+                position: relative;
+                bottom: 15px;
+            }
+            .dua{
+                position: relative;
+                bottom: 24px;
+            }
+            .tiga{
+                position: relative;
+                bottom: 20px;
+            }
+            .empat{
+                position: relative;
+                bottom: 14px;
+            }
+            .lima{
+                position: relative;
+                bottom: 24px;
+            }
+            .enam{
+                position: relative;
+                bottom: 22px;
+            }
+        }
+    }
+}

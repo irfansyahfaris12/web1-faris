@@ -1,0 +1,404 @@
+.sessions {
+    margin-top: 88px;
+    margin-left: 110px;
+    margin-right: 241px;
+    width: auto;
+    padding: 10px 35px;
+}
+
+.title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+
+    button {
+        margin-left: 45px;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        color: #82bdff;
+        border: 1px solid #82bdff;
+        font-size: 14px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
+
+.card-table {
+    padding: 13px 5px;
+
+    .btn {
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        color: #82bdff;
+        border: 1px solid #82bdff;
+        font-size: 14px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
+
+.wrap-card-atas {
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.card-atas {
+    background-color: #fff;
+    width: 227px;
+    margin-right: 25px;
+    padding: 15px 22px 7px;
+    box-shadow: 2px 2px 50px #f3f7f8;
+    margin-bottom: 17px;
+
+    p {
+        font-size: 12px;
+        color: #333d4b;
+    }
+
+    .titik {
+        float: right;
+        font-size: 35px;
+        color: #dde3e7;
+        cursor: pointer;
+        margin-top: -7;
+    }
+
+    .card-date {
+        color: #adb1b5;
+
+        span {
+            font-size: 25px;
+            margin-right: 5px;
+        }
+
+        .biru {
+            color: #4da1ff;
+        }
+
+        .orange {
+            color: #ff6d4a;
+        }
+    }
+}
+
+.wrap-date {
+    font-size: 13px;
+    color: #333d4b;
+
+    .tanggal {
+        font-weight: bold;
+    }
+
+    .th {
+        font-size: 12px;
+    }
+
+    hr {
+        background-color: #4da1ff;
+        height: 4px;
+        border-radius: 4px;
+        width: 50px;
+        margin-left: 0;
+        border: 0;
+    }
+}
+
+.btn-bts {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #9ba0a6;
+    border: 0px solid #9ba0a6;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.i-btn {
+    color: black;
+}
+
+.data-user {
+    img {
+        height: 66px;
+        width: 66px;
+        border-radius: 33px;
+    }
+
+    h4 {
+        font-weight: 500;
+        color: #323c47;
+        font-size: 15px;
+    }
+
+    .email {
+        font-size: 12px;
+        color: #9ba0a6;
+    }
+
+    .jobs {
+        font-size: 13px;
+        color: #838990;
+    }
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -50px;
+
+    .list-user {
+        margin-right: 25px;
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 2px 2px 50px #f3f7f8;
+        padding: 30px 30px;
+        margin-bottom: 25px;
+    }
+
+    .data-user {
+        display: flex;
+
+        .nama {
+            margin-left: 20px;
+        }
+
+        .email {
+            margin-top: -15px;
+        }
+
+        .jobs {
+            margin-top: 0px;
+        }
+    }
+
+    h4 {
+        margin-top: 0;
+    }
+
+    p {
+        margin-top: -8px;
+    }
+
+    .aktifitas {
+        margin-top: 15px;
+        border: 1px solid #e9eff4;
+        border-radius: 10px;
+    }
+
+    .invites-pending {
+        display: flex;
+        flex: 1;
+
+        div {
+            flex: 1;
+            border-bottom: 1px solid #e9eff4;
+            padding: 10px 20px;
+            height: 36px;
+            width: 65px;
+        }
+
+        h5 {
+            font-size: 12px;
+            margin-top: 0;
+            color: #36404b;
+            font-weight: 400;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .invites {
+            border-right: 1px solid #e9eff4;
+
+            h4 {
+                margin-top: -15px;
+                color: #4da1ff;
+            }
+        }
+    }
+
+
+
+    .pending {
+        h4 {
+            margin-top: -15px;
+            color: #ff6d4a;
+            margin-left: 20px;
+        }
+
+        span {
+            position: absolute;
+            color: #ff6d4a;
+            font-size: 60px;
+            margin-top: -57px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+
+    .chart {
+        p {
+            font-size: 12px;
+            margin-top: 11px;
+            margin-left: 15px;
+            color: #36404b;
+        }
+    }
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+
+    .list-user {
+        background-color: white;
+        width: 100%;
+        border-radius: 7px;
+        box-shadow: 2px 2px 50px #f3f7f8;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+
+    .data-user {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin: 0 30px;
+
+        .nama {
+            display: flex;
+            flex: 1;
+            margin-left: 20px;
+            margin-top: 0px;
+            flex-wrap: wrap;
+
+            .email {
+                margin-top: -14px;
+            }
+
+            .jobs {
+                margin-top: 20px;
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .aktifitas {
+        flex: 1;
+        display: flex;
+    }
+
+    .invites-pending {
+        padding: 10px;
+        display: flex;
+        flex: 1;
+
+        div {
+            padding: 10px;
+            display: flex;
+            flex: 1;
+        }
+
+        h5 {
+            color: #36404b;
+            font-weight: 400;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .invites {
+            margin-top: 7px;
+
+            h4 {
+                color: #4da1ff;
+                margin-left: 10px;
+                margin-top: 16px;
+            }
+        }
+    }
+
+
+
+    .pending {
+        margin-top: -7px;
+
+        h4 {
+            color: #ff6d4a;
+            margin-left: 5px;
+            margin-top: 18px;
+        }
+
+        span {
+            margin-top: -23px;
+            margin-left: 15px;
+            color: #ff6d4a;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+
+    .chart {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    .sessions {
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+
+    .card-table {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+
+    .isi-card-atas {
+        margin-right: 0;
+        align-content: center;
+        margin-bottom: 25px;
+        width: 100%;
+        animation: none;
+    }
+
+    .card {
+        justify-content: center;
+        margin-right: 0;
+
+        .list-user {
+            margin-right: 0;
+        }
+
+        .table {
+            .list-user {
+                .nama {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+    }
+}
